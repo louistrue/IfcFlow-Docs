@@ -154,48 +154,43 @@ Built with ❤️ by [LT+](https://www.lt.plus) — Digital Planning. Sustainabl
 
 # IFC Flow Map Documentation
 
-A beautiful, interactive documentation site for the IFC Flow Map project, built with Next.js, Tailwind CSS, and MDX.
+A modern documentation site for the IFC Flow Map project, built with Next.js and Tailwind CSS.
 
-![IFC Flow Map Documentation Screenshot](https://placeholder.svg?height=400&width=800&text=IFC+Flow+Map+Documentation)
+![IFC Flow Map Documentation](https://placeholder.svg?height=300&width=600&text=IFC+Flow+Map+Documentation)
 
-## Overview
+## About
 
-This repository contains the documentation website for [IFC Flow Map](https://github.com/louistrue/ifc-flow-map) - a visual node-based tool for exploring and automating BIM data workflows. This documentation site is designed to be comprehensive, accessible, and user-friendly.
+This repository contains **only the documentation website** for [IFC Flow Map](https://github.com/louistrue/ifc-flow-map) - a visual node-based tool for exploring and automating BIM data workflows. The main project repository is separate.
 
-### Features
+## Features
 
-- **Modern UI**: Clean design with dark mode support
-- **Responsive Layout**: Optimized for all device sizes
-- **Interactive Examples**: Live code and workflow examples
-- **Search**: Fast, client-side search across all documentation
-- **Accessibility**: WCAG compliant design and keyboard navigation
-- **Performance**: Optimized for fast loading and rendering
+- **Dark Mode**: Elegant dark/light theme switching
+- **Responsive Design**: Mobile-friendly layout
+- **Interactive Examples**: Code snippets with syntax highlighting
+- **Search**: Fast documentation search
+- **Accessibility**: WCAG compliant design
 
-## Getting Started
+## Development
 
 ### Prerequisites
 
 - Node.js 16.0.0 or later
 
-### Installation
+### Setup
 
-1. Clone the documentation repository:
 \`\`\`bash
+# Clone the documentation repository
 git clone https://github.com/louistrue/ifc-flow-map-docs.git
 cd ifc-flow-map-docs
-\`\`\`
 
-2. Install dependencies:
-\`\`\`bash
+# Install dependencies
 npm install
-\`\`\`
 
-3. Start the development server:
-\`\`\`bash
+# Start the development server
 npm run dev
 \`\`\`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -204,53 +199,31 @@ npm run dev
 │   ├── page.tsx        # Landing page
 │   └── docs/           # Documentation pages
 ├── components/         # React components
-│   ├── ui/             # UI components
-│   └── mdx/            # MDX components
 ├── lib/                # Utilities and data
-│   └── mock-docs.ts    # Documentation content
 ├── public/             # Static assets
 └── styles/             # Global CSS
 \`\`\`
 
-## Contributing to Documentation
+## Contributing
 
-We welcome contributions to improve the documentation! Here's how you can help:
+We welcome contributions to improve the documentation:
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/improve-node-docs`
+2. Create a feature branch: `git checkout -b feature/improve-docs`
 3. Make your changes
-4. Push to your branch: `git push origin feature/improve-node-docs`
-5. Submit a pull request
+4. Submit a pull request
 
-### Documentation Guidelines
-
-- Use clear, concise language
-- Include code examples where appropriate
-- Add screenshots for UI-related features
-- Follow the existing structure and formatting
-- Test any interactive examples before submitting
-
-## Deployment
-
-The documentation site is automatically deployed to Vercel when changes are pushed to the main branch.
+Please follow our documentation style guide and test any changes locally before submitting.
 
 ## Related Projects
 
 - [IFC Flow Map](https://github.com/louistrue/ifc-flow-map) - The main project repository
-- [IFC Flow Map Examples](https://github.com/louistrue/ifc-flow-map-examples) - Example workflows and use cases
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) - see the LICENSE file for details.
 
 ## Acknowledgments
 
-- Built with [Next.js](https://nextjs.org/)
-- Styling with [Tailwind CSS](https://tailwindcss.com/)
-- UI components from [shadcn/ui](https://ui.shadcn.com/)
-- Content management with MDX
-- Icons from [Lucide](https://lucide.dev/)
-
----
-
-Made with ❤️ by [LT+](https://www.lt.plus) — Digital Planning. Sustainable Construction.
+- Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
+- Sponsored by [LT+](https://www.lt.plus) — Digital Planning. Sustainable Construction.
