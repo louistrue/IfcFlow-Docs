@@ -1,4 +1,4 @@
-# IFC Flow Map
+# IFCflow
 
 A visual node-based tool for exploring & automating BIM data workflows directly in your browser.
 
@@ -6,7 +6,7 @@ A visual node-based tool for exploring & automating BIM data workflows directly 
 
 ## Overview
 
-IFC Flow Map is an open-source web application that lets you **view, filter, transform and analyze BIM data** through an intuitive drag-and-drop workflow editor. The entire runtime executes in your browser — no servers, no data leaks.
+IFCflow is an open-source web application that lets you **view, filter, transform and analyze BIM data** through an intuitive drag-and-drop workflow editor. The entire runtime executes in your browser — no servers, no data leaks.
 
 ### Why Another BIM Tool?
 
@@ -19,140 +19,19 @@ IFC Flow Map is an open-source web application that lets you **view, filter, tra
 
 ### Online Version
 
-The fastest way to try IFC Flow Map is to use the online version at [https://ifc-flow-map.vercel.app](https://ifc-flow-map.vercel.app).
-
-### Local Installation
-
-For local development or offline use:
-
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/louistrue/ifc-flow-map.git
-
-# Navigate to the project directory
-cd ifc-flow-map
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-\`\`\`
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+The fastest way to try IFC Flow Map is to use the online version at [https://ifcflow.com](https://ifcflow.com).
 
 ## Core Concepts
 
-IFC Flow Map is built around three main concepts:
+IFCflow is built around three main concepts:
 
 1. **Workflows** - A complete data processing pipeline
 2. **Nodes** - Individual processing units (e.g., IFC loader, filter, viewer)
-3. **Edges** - Connections between nodes that define data flow
+3. **Edges** - Connections between nodes that define data flow  
 
-## Available Nodes
+with ❤️ by [LT+](https://www.lt.plus) — Digital Planning. Sustainable Construction.
 
-### Input Nodes
-
-- **IFC File** - Load an IFC file from your device
-- **CSV Import** - Import tabular data
-- **JSON Import** - Import structured data
-
-### Transform Nodes
-
-- **Filter** - Filter elements by property
-- **Map** - Transform each element
-- **Reduce** - Aggregate elements
-- **Geometry** - Extract meshes, bounding boxes or volumes from IFC elements
-
-### Output Nodes
-
-- **3D Viewer** - Interactive 3D view of the model
-- **Table View** - Display data in tabular format
-- **Export** - Save results to file
-
-## Project Structure
-
-\`\`\`
-src/
-├── app/                # Next.js App Router
-│   ├── page.tsx        # Landing page
-│   ├── play/           # Interactive editor
-│   └── docs/           # Documentation
-├── components/         # React components
-│   ├── nodes/          # Node implementations
-│   ├── ui/             # UI components
-│   └── viewer/         # 3D viewer components
-├── lib/                # Core utilities
-│   ├── ifc/            # IFC parsing and utilities
-│   └── workflow/       # Workflow engine
-└── public/             # Static assets
-\`\`\`
-
-## Roadmap
-
-- [ ] Support for IFC 4.3 schemas
-- [ ] Custom node creation UI
-- [ ] Workflow templates and sharing
-- [ ] Headless execution via CLI
-- [ ] GitHub Action for automated IFC processing
-- [ ] Performance optimizations for large models
-
-## Sustainability
-
-IFC Flow Map aligns with sustainable construction practices by enabling:
-
-- Early-stage analysis of embodied carbon
-- Material optimization through data-driven design
-- Reduction of waste through better BIM data understanding
-- Local processing that reduces cloud computing energy usage
-
-## Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add some amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-Please make sure your code follows our coding standards and includes appropriate tests.
-
-## Development
-
-### Prerequisites
-
-- Node.js 16.0.0 or later
-- Modern browser with WebAssembly support
-
-### Building for Production
-
-\`\`\`bash
-npm run build
-\`\`\`
-
-### Running Tests
-
-\`\`\`bash
-npm test
-\`\`\`
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [IfcOpenShell](https://ifcopenshell.org/) for the WebAssembly IFC parser
-- [React Flow](https://reactflow.dev/) for the workflow editor
-- [Three.js](https://threejs.org/) for 3D visualization
-- [LT+](https://www.lt.plus) for project sponsorship and guidance
-
----
-
-Built with ❤️ by [LT+](https://www.lt.plus) — Digital Planning. Sustainable Construction.
-
-# IFC Flow Map Documentation
+# IFCflow Documentation
 
 A modern documentation site for the IFC Flow Map project, built with Next.js and Tailwind CSS.
 
@@ -160,7 +39,7 @@ A modern documentation site for the IFC Flow Map project, built with Next.js and
 
 ## About
 
-This repository contains **only the documentation website** for [IFC Flow Map](https://github.com/louistrue/ifc-flow-map) - a visual node-based tool for exploring and automating BIM data workflows. The main project repository is separate.
+This repository contains **only the documentation website** for [IFCflow](https://github.com/louistrue/ifc-flow) - a visual node-based tool for exploring and automating BIM data workflows. The main project repository is separate.
 
 ## Features
 
@@ -215,10 +94,6 @@ We welcome contributions to improve the documentation:
 
 Please follow our documentation style guide and test any changes locally before submitting.
 
-## Related Projects
-
-- [IFC Flow Map](https://github.com/louistrue/ifc-flow-map) - The main project repository
-
 ## License
 
 This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) - see the LICENSE file for details.
@@ -226,4 +101,3 @@ This project is licensed under the GNU Affero General Public License v3.0 (AGPL-
 ## Acknowledgments
 
 - Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
-- Sponsored by [LT+](https://www.lt.plus) — Digital Planning. Sustainable Construction.
